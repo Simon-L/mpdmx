@@ -50,7 +50,7 @@ void loop() {
 
     dmx.write(CHAN4, 0);
     dmx.write(CHAN3, 0);
-    dmx.write(CHAN1, 255
+    dmx.write(CHAN1, 255);
     dmx.update();
     delay(1000);
     Serial.println("");
